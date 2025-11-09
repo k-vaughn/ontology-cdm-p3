@@ -1,21 +1,28 @@
 # City Data Model - Transport
 
-This ontology defines service-level concepts for the transport domain using concepts specified in ISO/IEC 5087-1 and ISO/IEC-5087-2. The values for service-level concepts defined by this site are intended to be managed by the transport domain but accessible by multiple city services and stakeholders.
+A PublicTransportElement represents any element of a public transport system. It can be a part of another PublicTransportElement and can be decomposed into smaller PublicTransportElement.
 
 This ontology consists of the following patterns:
 
-- [Micromobility Network Pattern](classes/MicromobilityNetworkPattern.md)
-- [Pedestrian Network Pattern](classes/PedestrianNetworkPattern.md)
-- [Public Transport System Pattern](classes/PublicTransportSystemPattern.md)
-- [Rail Network Pattern](classes/RailNetworkPattern.md)
-- [Road Network Pattern](classes/RoadNetworkPattern.md)
-- [Transport Alert Pattern](classes/TransportAlertPattern.md)
-- [Transport Network Pattern](classes/TransportNetworkPattern.md)
-- [Travel Corridor Pattern](classes/TravelCorridorPattern.md)
+- [Micromobility Network Pattern (transportnetwork)](classes/transportnetwork__MicromobilityNetworkPattern.md)
+- [Pedestrian Network Pattern (transportnetwork)](classes/transportnetwork__PedestrianNetworkPattern.md)
+- [Public Transport System Pattern (transportnetwork)](classes/transportnetwork__PublicTransportSystemPattern.md)
+- [Rail Network Pattern (transportnetwork)](classes/transportnetwork__RailNetworkPattern.md)
+- [Road Network Pattern (transportnetwork)](classes/transportnetwork__RoadNetworkPattern.md)
+- [Transport Alert Pattern (transportnetwork)](classes/transportnetwork__TransportAlertPattern.md)
+- [Transport Network Pattern (transportnetwork)](classes/transportnetwork__TransportNetworkPattern.md)
+- [Travel Corridor Pattern (transportnetwork)](classes/transportnetwork__TravelCorridorPattern.md)
 
 The ontology also contains the following classes that are not assigned to any pattern:
 
-- [ITS Pattern](classes/ITSPattern.md)
-- [ITS Thing](classes/ITSThing.md)
+- [ITS Pattern (transportnetwork)](classes/transportnetwork__ITSPattern.md)
+- [Micromobility Network Pattern (transportnetwork)](classes/transportnetwork__MicromobilityNetworkPattern.md)
+- [Pedestrian Network Pattern (transportnetwork)](classes/transportnetwork__PedestrianNetworkPattern.md)
+- [Public Transport System Pattern (transportnetwork)](classes/transportnetwork__PublicTransportSystemPattern.md)
+- [Rail Network Pattern (transportnetwork)](classes/transportnetwork__RailNetworkPattern.md)
+- [Road Network Pattern (transportnetwork)](classes/transportnetwork__RoadNetworkPattern.md)
+- [Transport Alert Pattern (transportnetwork)](classes/transportnetwork__TransportAlertPattern.md)
+- [Transport Network Pattern (transportnetwork)](classes/transportnetwork__TransportNetworkPattern.md)
+- [Travel Corridor Pattern (transportnetwork)](classes/transportnetwork__TravelCorridorPattern.md)
 
-The formal definition of these patterns is available in [OWL Functional Notation](transportnetwork.ofn).
+The formal definition of these patterns is available in [OFN Syntax](transportnetwork.ofn).

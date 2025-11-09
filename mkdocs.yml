@@ -3,70 +3,61 @@ site_description: The ontology for the Transport portion of the City Data Model
 repo_url: https://github.com/k-vaughn/ontology-cdm-p3
 nav:
 - Home: index.md
-- Micromobility Network Pattern:
-  - Overview: classes/MicromobilityNetworkPattern.md
-  - Micromobility Lane: classes/MicromobilityLane.md
-  - Micromobility Link: classes/MicromobilityLink.md
-  - Micromobility Network: classes/MicromobilityNetwork.md
-  - Micromobility Path: classes/MicromobilityPath.md
-  - Micromobility Path Section: classes/MicromobilityPathSection.md
-  - Micromobility Path Segment: classes/MicromobilityPathSegment.md
-- Pedestrian Network Pattern:
-  - Overview: classes/PedestrianNetworkPattern.md
-  - Footpath: classes/Footpath.md
-  - Footpath Lane: classes/FootpathLane.md
-  - Footpath Link: classes/FootpathLink.md
-  - Footpath Network: classes/FootpathNetwork.md
-  - Footpath Section: classes/FootpathSection.md
-  - Footpath Segment: classes/FootpathSegment.md
-- Public Transport System Pattern:
-  - Overview: classes/PublicTransportSystemPattern.md
-  - Group Of Lines: classes/GroupOfLines.md
-  - Point On Route: classes/PointOnRoute.md
-  - Public Transport Element: classes/PublicTransportElement.md
-  - Public Transport Line: classes/PublicTransportLine.md
-  - Public Transport Route: classes/PublicTransportRoute.md
-  - Public Transport System: classes/PublicTransportSystem.md
-  - Route Point: classes/RoutePoint.md
-- Rail Network Pattern:
-  - Overview: classes/RailNetworkPattern.md
-  - Rail Corridor: classes/RailCorridor.md
-  - Rail Network: classes/RailNetwork.md
-  - Rail Section: classes/RailSection.md
-  - Track Link: classes/TrackLink.md
-  - Track Segment: classes/TrackSegment.md
-- Road Network Pattern:
-  - Overview: classes/RoadNetworkPattern.md
-  - Road: classes/Road.md
-  - Road Lane: classes/RoadLane.md
-  - Road Link: classes/RoadLink.md
-  - Road Link User Type: classes/RoadLinkUserType.md
-  - Road Network: classes/RoadNetwork.md
-  - Road Section: classes/RoadSection.md
-  - Road Segment: classes/RoadSegment.md
-- Transport Alert Pattern:
-  - Overview: classes/TransportAlertPattern.md
-  - Alert: classes/Alert.md
-  - Transport Alert: classes/TransportAlert.md
-- Transport Network Pattern:
-  - Overview: classes/TransportNetworkPattern.md
-  - Junction: classes/Junction.md
-  - Network Element: classes/NetworkElement.md
-  - Scheduled Code: classes/ScheduledCode.md
-  - Transport Network: classes/TransportNetwork.md
-  - Transport Node: classes/TransportNode.md
-  - Travelled Way: classes/TravelledWay.md
-  - Travelled Way Lane: classes/TravelledWayLane.md
-  - Travelled Way Link: classes/TravelledWayLink.md
-  - Travelled Way Section: classes/TravelledWaySection.md
-  - Travelled Way Segment: classes/TravelledWaySegment.md
-- Travel Corridor Pattern:
-  - Overview: classes/TravelCorridorPattern.md
-  - Travel Corridor: classes/TravelCorridor.md
-  - Travel Corridor Link: classes/TravelCorridorLink.md
-  - Travel Corridor Segment: classes/TravelCorridorSegment.md
-- ITS Pattern: classes/ITSPattern.md
-- ITS Thing: classes/ITSThing.md
+- Micromobility Network Pattern (transportnetwork):
+  - Micromobility Lane: classes/transportnetwork__MicromobilityLane.md
+  - Micromobility Link: classes/transportnetwork__MicromobilityLink.md
+  - Micromobility Network: classes/transportnetwork__MicromobilityNetwork.md
+  - Micromobility Path: classes/transportnetwork__MicromobilityPath.md
+  - Micromobility Path Section: classes/transportnetwork__MicromobilityPathSection.md
+  - Micromobility Path Segment: classes/transportnetwork__MicromobilityPathSegment.md
+- Pedestrian Network Pattern (transportnetwork):
+  - Footpath: classes/transportnetwork__Footpath.md
+  - Footpath Lane: classes/transportnetwork__FootpathLane.md
+  - Footpath Link: classes/transportnetwork__FootpathLink.md
+  - Footpath Network: classes/transportnetwork__FootpathNetwork.md
+  - Footpath Section: classes/transportnetwork__FootpathSection.md
+  - Footpath Segment: classes/transportnetwork__FootpathSegment.md
+- Public Transport System Pattern (transportnetwork):
+  - Group Of Lines: classes/transportnetwork__GroupOfLines.md
+  - Point On Route: classes/transportnetwork__PointOnRoute.md
+  - Public Transport Element: classes/transportnetwork__PublicTransportElement.md
+  - Public Transport Line: classes/transportnetwork__PublicTransportLine.md
+  - Public Transport Route: classes/transportnetwork__PublicTransportRoute.md
+  - Public Transport System: classes/transportnetwork__PublicTransportSystem.md
+  - Route Point: classes/transportnetwork__RoutePoint.md
+- Rail Network Pattern (transportnetwork):
+  - Rail Corridor: classes/transportnetwork__RailCorridor.md
+  - Rail Network: classes/transportnetwork__RailNetwork.md
+  - Rail Section: classes/transportnetwork__RailSection.md
+  - Track Link: classes/transportnetwork__TrackLink.md
+  - Track Segment: classes/transportnetwork__TrackSegment.md
+- Road Network Pattern (transportnetwork):
+  - Road: classes/transportnetwork__Road.md
+  - Road Lane: classes/transportnetwork__RoadLane.md
+  - Road Link: classes/transportnetwork__RoadLink.md
+  - Road Link User Type: classes/transportnetwork__RoadLinkUserType.md
+  - Road Network: classes/transportnetwork__RoadNetwork.md
+  - Road Section: classes/transportnetwork__RoadSection.md
+  - Road Segment: classes/transportnetwork__RoadSegment.md
+- Transport Alert Pattern (transportnetwork):
+  - Alert: classes/transportnetwork__Alert.md
+  - Transport Alert: classes/transportnetwork__TransportAlert.md
+- Transport Network Pattern (transportnetwork):
+  - Junction: classes/transportnetwork__Junction.md
+  - Network Element: classes/transportnetwork__NetworkElement.md
+  - Scheduled Code: classes/transportnetwork__ScheduledCode.md
+  - Transport Network: classes/transportnetwork__TransportNetwork.md
+  - Transport Node: classes/transportnetwork__TransportNode.md
+  - Travelled Way: classes/transportnetwork__TravelledWay.md
+  - Travelled Way Lane: classes/transportnetwork__TravelledWayLane.md
+  - Travelled Way Link: classes/transportnetwork__TravelledWayLink.md
+  - Travelled Way Section: classes/transportnetwork__TravelledWaySection.md
+  - Travelled Way Segment: classes/transportnetwork__TravelledWaySegment.md
+- Travel Corridor Pattern (transportnetwork):
+  - Travel Corridor: classes/transportnetwork__TravelCorridor.md
+  - Travel Corridor Link: classes/transportnetwork__TravelCorridorLink.md
+  - Travel Corridor Segment: classes/transportnetwork__TravelCorridorSegment.md
+- ITS Pattern (transportnetwork): classes/transportnetwork__ITSPattern.md
 site_url: https://github.com/k-vaughn/ontology-cdm-p3
 copyright: <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
   <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank"
